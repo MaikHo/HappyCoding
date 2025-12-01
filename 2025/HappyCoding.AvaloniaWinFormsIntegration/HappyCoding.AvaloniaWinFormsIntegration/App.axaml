@@ -1,0 +1,26 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="HappyCoding.AvaloniaWinFormsIntegration.App"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.Styles>
+        <FluentTheme />
+
+        <Style Selector="Border.InputArea">
+			<Setter Property="Background" Value="#88888888" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="CornerRadius" Value="10" />
+
+            <Style Selector="^ TextBox">
+				<Setter Property="Width" Value="200" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+            <Style Selector="^ TextBlock">
+				<Setter Property="Width" Value="100" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+        </Style>
+
+    </Application.Styles>
+</Application>
