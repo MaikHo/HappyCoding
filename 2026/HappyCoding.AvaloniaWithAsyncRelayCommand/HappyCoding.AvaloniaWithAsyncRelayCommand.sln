@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyCoding.AvaloniaWithAsyncRelayCommand", "HappyCoding.AvaloniaWithAsyncRelayCommand\HappyCoding.AvaloniaWithAsyncRelayCommand.csproj", "{F1D03E18-F3B0-4A88-A2F8-3D69A8E4ECDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D03E18-F3B0-4A88-A2F8-3D69A8E4ECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D03E18-F3B0-4A88-A2F8-3D69A8E4ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D03E18-F3B0-4A88-A2F8-3D69A8E4ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D03E18-F3B0-4A88-A2F8-3D69A8E4ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

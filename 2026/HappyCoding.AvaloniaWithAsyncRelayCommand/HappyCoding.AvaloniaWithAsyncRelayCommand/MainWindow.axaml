@@ -1,0 +1,34 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HappyCoding.AvaloniaWithAsyncRelayCommand"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="HappyCoding.AvaloniaWithAsyncRelayCommand.MainWindow"
+        x:DataType="local:MainWindowViewModel"
+        d:DataContext="{x:Static local:MainWindowViewModel.DesignViewModel}"
+        Title="HappyCoding.AvaloniaWithAsyncRelayCommand">
+    <DockPanel IsEnabled="{Binding !LoadUsersCommand.IsRunning}">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Load Users"
+                      Command="{Binding LoadUsersCommand}" />
+            <MenuItem Header="Clear"
+                      Command="{Binding ClearCommand}" />
+        </Menu>
+        
+        <ProgressBar DockPanel.Dock="Bottom" 
+                     IsIndeterminate="True"
+                     Height="10"
+                     IsVisible="{Binding LoadUsersCommand.IsRunning}" />
+        
+        <ListBox ItemsSource="{Binding UserInfos}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="{Binding FirstName}" /> <Run Text="{Binding LastName}" /> (<Run Text="{Binding UserName}" />)
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>
