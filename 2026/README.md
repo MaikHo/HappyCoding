@@ -16,6 +16,9 @@ A small experiment for slide based navigation (like in presentation tools)
 ### [HappyCoding.AvaloniaTemplatedControl](HappyCoding.AvaloniaTemplatedControl)
 A simple templates control, implemented like described in https://docs.avaloniaui.net/docs/custom-controls/templated-controls
 
+### [HappyCoding.AvaloniaViewModelValidation](HappyCoding.AvaloniaViewModelValidation)
+A simple sample for validatin in the ViewModel using CommunityToolkit.Mvvm in Avalonia
+
 ### [HappyCoding.AvaloniaWithAsyncRelayCommand](HappyCoding.AvaloniaWithAsyncRelayCommand)
 A simple sample for working with AsyncRelayCommand (from CommunityToolkit.Mvvm) in Avalonia
 
