@@ -16,6 +16,9 @@ A small experiment for slide based navigation (like in presentation tools)
 ### [HappyCoding.AvaloniaTemplatedControl](HappyCoding.AvaloniaTemplatedControl)
 A simple templates control, implemented like described in https://docs.avaloniaui.net/docs/custom-controls/templated-controls
 
+### [HappyCoding.AvaloniaWithDependencyInjection](HappyCoding.AvaloniaWithDependencyInjection)
+A simple sample for working with DependencyInjection in Avalonia
+
 ### [HappyCoding.AvaloniaWithWinForms](HappyCoding.AvaloniaWithWinForms)
 Sample for integration of Windows.Forms controls into an Avalonia application
 
